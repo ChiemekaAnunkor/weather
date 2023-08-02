@@ -13,7 +13,13 @@ curl wttr.in/London
 ```
 
 
-to pull a weather based on the location use curl and at the end add /yourcity
+to pull a weather based on the location use curl, at the end add /yourcity and if you want it in json format 'j1'
 ```
-curl wttr.in/London
+curl wttr.in/Detroit?format=j1
+```
+
+
+to pull a weather based on the location use curl, at the end add /yourcity and if you want it in excel  format 'sxl'
+```
+    curl v3.wttr.in/Bayern.sxl
 ```
